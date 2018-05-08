@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.tutoserevices.DetailleRec">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="47dp"
+        android:text="Titre :"
+        android:textStyle="bold"
+        android:editable="false"
+        android:inputType="none"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="217dp"
+        android:editable="false"
+        android:inputType="none"
+        android:text="Etat :"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="108dp"
+        android:editable="false"
+        android:inputType="none"
+        android:text="Theme :"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:editable="false"
+        android:text="Date :"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icone"
+        android:layout_width="123dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="103dp"
+        android:layout_marginEnd="18dp" />
+
+    <ImageView
+        android:id="@+id/icone1"
+        android:layout_width="123dp"
+        android:layout_height="95dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginBottom="95dp" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="130dp"
+        android:text="Fermer" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "700871395208",
+    "firebase_url": "https://reclam-6644e.firebaseio.com",
+    "project_id": "reclam-6644e",
+    "storage_bucket": "reclam-6644e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700871395208:android:820a958d3632b619",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700871395208-tcf9812jgea2797blul10au77pr8meh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx96apUyBwyElyxOZhxbEOzlra7d4UhGU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

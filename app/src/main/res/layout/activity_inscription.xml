@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.tutoserevices.inscription"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Inscriptionins"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="75dp"
+        android:fontFamily=""
+        android:text="Inscription"
+        android:textColor="@android:color/background_dark"
+        android:textSize="44sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Nomins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:hint="Nom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/prénomins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="60dp"
+        android:hint="Prénom" />
+
+    <EditText
+        android:id="@+id/Emailins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="60dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/Tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:ems="10"
+        android:hint="Tel"
+        android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/cin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:ems="10"
+            android:hint="Cin"
+            android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/textPasswordins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+
+        android:layout_marginLeft="60dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="60dp"
+        android:layout_weight="0.20">
+
+
+        <Button
+            android:id="@+id/Validerins"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:fontFamily="casual"
+            android:text="@string/valider"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Annulerins"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/cardview_shadow_start_color"
+            android:fontFamily="casual"
+            android:text="@string/Annuler"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

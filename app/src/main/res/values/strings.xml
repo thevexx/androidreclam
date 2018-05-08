@@ -1,0 +1,57 @@
+<resources>
+    <string name="tutoservices">Guide Reclamation</string>
+    <string name="valider">valider</string>
+    <string name="Annuller">Annuler</string>
+    <string name="login">Login</string>
+    <string name="Annuler">Annuler</string>
+    <string name="Select">Select</string>
+    <string name="Upload">Upload</string>
+
+
+    <string name="Femme">Femme</string>
+    <string name="Homme">Homme</string>
+    <string name="Genre">Genre </string>
+    <string name="tel">Telephone </string>
+    <string name="Email">Email</string>
+    <string name="prénom">prénom </string>
+    <string name="Nom">Nom</string>
+    <string name="Welcome">Welcome</string>
+    <string name="logout">logout</string>
+    <string name="change_password">change_password</string>
+    <string name="entrer">entrer</string>
+    <string name="texte">texte</string>
+
+
+    <string name="Login">Login</string>
+    <string name="btn_link_signup">btn_link_signup</string>
+
+    <string name="Inscription">Inscription </string>
+    <string name="msgalert" />
+    <string name="ajouterec">ajouter Reclamation </string>
+    <string name="Fermer">Fermer </string>
+    <string name="listerec"> liste Reclamation  </string>
+    <string name="app_name">app_name</string>
+    <string name="title_activity_inscrip">inscrip</string>
+    <string name="title_activity_register">register</string>
+    <string name="fill_in_all_the_fields" />
+    <string name="saved_high_score" />
+    <string name="title_activity_gps">gps</string>
+    <string name="title_activity_splach_screen">splachScreen</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+
+</resources>
